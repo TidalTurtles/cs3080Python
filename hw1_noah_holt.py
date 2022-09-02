@@ -5,28 +5,53 @@
 #   Ask the user a series of questions and see if they can answer them
 
 # Needed
-#   1) min 1 print(Y), input(Y), str(N), len(N), int(N) randint(Y)
+#   1) min 1 print(Y), input(Y), str(Y), len(Y), int(N) randint(Y)
 #   2) one var for int (Y), float (N) and string (Y)
 #   3) pick camelcase (Y) or underscores (N)
 #   4) use 4 math operations (one must be % or //)
 #   5) use for loop to ask 3 question and use the range() (use i for the questions)
-#   6) need one each of if, elif, else, break, continue
-#   7) need one truthy or falsey
+#   6) need one each of if, elif, else, break, continue  (Y)
+#   7) need one truthy or falsey (Y)
 #   8) Comment it good
 
 # Think the struggle will be to use the len() and randint() and continue
 # truthy and falsey a bit confusing still so need to look that up also
 
-# Ideas for creativity:  Guessing game with math or Lilo and Stitch alternate script (sounds fun but long)
+# Ideas for creativity:  Make it about something I like. Like Disc Golf
 
 import random
 
-guessIt = random.randint(1, 21)
+# will use later for calcs
+theDistance = random.randint(50, 1000)
 
-print("So, what is your name?")
+name = ''
+# till it's my name
+while not name:
+    print("So, what is your name?")
+    name = input()
 
-nameGiven = input()  # this will be a string
+print("Seems like you like disc golf")
 
-print(nameGiven + " your number is " + str(guessIt))
+nameSpeed = len(name)
+print("if your name was a disc, it would be " + str(nameSpeed) + " speed")
+
+print()
+
+# putters are 0-4, mid are 5-8, drivers are else
+if nameSpeed < 5:
+    print("that makes you a putter!")
+    howFar = 50
+elif nameSpeed < 8:
+    print("that makes you a midrange!")
+    howFar = 150
+else:
+    print("that makes you a driver!")
+    howFar = 250
+
+throwYourselfRounded = theDistance // howFar
+throwYourselfLeftOvers = theDistance % howFar
+
+print("If you threw you as a disc on a " + str(theDistance) + "ft hole...")
+print("It would take " + str(throwYourselfRounded) + " throws! With " + str(throwYourselfLeftOvers) + "ft still to go!!")
 
 
