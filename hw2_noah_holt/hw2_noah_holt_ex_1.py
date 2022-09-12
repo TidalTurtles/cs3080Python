@@ -3,7 +3,7 @@
 # Due: 23 sept 2022
 # Collartz Program
 #   Receive integer input from users, if even print num // 2 and return
-#   if odd print and return 3 * (num+1)
+#   if odd print and return 3 * num + 1
 
 # Thoughts:
 #   write while loop to call function until return from function is 1
@@ -11,6 +11,10 @@
 
 
 
-collartz(math)
-    if(math % 2 == 0)
+def collartz(math):
+
+    if(math % 2 == 0):
+        return (math // 2)
+    else:
+        return 3 * math +1
 
