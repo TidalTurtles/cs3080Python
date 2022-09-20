@@ -9,12 +9,15 @@
 #   write while loop to call function until return from function is 1
 #   ie while number != 1 call collartz function and change number
 
+do {
+    changeThis = input('Which number?')
+    changeThis = collartz(changeThis)
+} while(changeThis != 1);
 
+def collartz(number):
 
-def collartz(math):
-
-    if(math % 2 == 0):
-        return (math // 2)
+    if(number % 2 == 0):
+        return (number // 2)
     else:
-        return 3 * math +1
+        return 3 * number +1
 
