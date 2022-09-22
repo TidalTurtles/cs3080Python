@@ -12,8 +12,11 @@
 #       manipulate and print in different ways.
 #
 
-import hw2_noah_holt_ex_1
-import hw2_noah_holt_ex_2
+#import hw2_noah_holt_ex_1
+#import hw2_noah_holt_ex_2
 import hw2_noah_holt_ex_3
+#import hw2_noah_holt_ex_4
 
-hw2_noah_holt_ex_1
+
+
+

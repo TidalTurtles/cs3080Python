@@ -14,7 +14,7 @@ def collartz(number):
         return 3 * number +1
 
 
-changeThis = input("Give me an Int!\n")
+changeThis = input("Give me an Int!")
 
 while changeThis != 1:
     changeThis = collartz(int(changeThis))

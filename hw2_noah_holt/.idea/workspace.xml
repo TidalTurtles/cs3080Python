@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133bd237-bb1a-45b5-ab7c-3b23acc0ac1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hw2_noah_holt_ex_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2_noah_holt_ex_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw2_noah_holt_ex_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2_noah_holt_ex_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw2_noah_holt_ex_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw2_noah_holt_ex_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw2_noah_holt_ex_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +36,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "build.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="hw2_noah_holt" />
@@ -71,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663684705541</updated>
       <workItem from="1663684708236" duration="1637000" />
+      <workItem from="1663854509176" duration="3310000" />
     </task>
     <servers />
   </component>
@@ -89,6 +94,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hw2_noah_holt$main.coverage" NAME="main Coverage Results" MODIFIED="1663685657281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hw2_noah_holt$main.coverage" NAME="main Coverage Results" MODIFIED="1663857845754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
