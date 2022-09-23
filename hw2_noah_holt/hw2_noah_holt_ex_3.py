@@ -18,7 +18,8 @@
 
 # 11
 def strList(formatMe):
-    
+
+
 
 # 1
 everydayItems = ["Wallet", "Phone", "Keys"]
