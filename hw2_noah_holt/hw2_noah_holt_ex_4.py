@@ -13,4 +13,20 @@
 
 import random
 
-print("Bello World")
+# start vars
+guessThis = random.randint(1, 21)
+userGuess = 0
+guessCount = 0
+print("I'm thinking of a number...")
+
+while userGuess != guessThis:
+    print("Which number is it (hint: between 1-20)")
+    guessCount += 1
+    userGuess = int(input())
+    if userGuess == guessThis:
+        print("You guessed right!!! The number was " + str(userGuess))
+    else:
+        print("Nope, not quite. How about you try again!")
+
+
+print("Nice job! it only took you " + str(guessCount) + " tries to guess!")

@@ -14,9 +14,11 @@
 
 #import hw2_noah_holt_ex_1
 #import hw2_noah_holt_ex_2
-import hw2_noah_holt_ex_3
-#import hw2_noah_holt_ex_4
+#import hw2_noah_holt_ex_3
+import hw2_noah_holt_ex_4
 
 
-
-
+#hw2_noah_holt_ex_1
+#hw2_noah_holt_ex_2
+#hw2_noah_holt_ex_3
+#hw2_noah_holt_ex_4
