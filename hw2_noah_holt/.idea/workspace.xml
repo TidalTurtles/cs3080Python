@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133bd237-bb1a-45b5-ab7c-3b23acc0ac1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/hw2_noah_holt_ex_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw2_noah_holt_ex_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2_noah_holt_ex_4_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2_noah_holt_ex_4_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
       <workItem from="1663684708236" duration="1637000" />
       <workItem from="1663854509176" duration="3310000" />
       <workItem from="1663951540058" duration="84000" />
-      <workItem from="1663973295097" duration="912000" />
+      <workItem from="1663973295097" duration="1499000" />
     </task>
     <servers />
   </component>
@@ -91,6 +93,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/hw2_noah_holt$main.coverage" NAME="main Coverage Results" MODIFIED="1663974192754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hw2_noah_holt$main.coverage" NAME="main Coverage Results" MODIFIED="1663974766440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
