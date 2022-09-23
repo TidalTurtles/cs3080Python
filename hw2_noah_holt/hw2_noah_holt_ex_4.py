@@ -19,8 +19,8 @@ userGuess = 0
 guessCount = 0
 print("I'm thinking of a number...")
 
-while userGuess != guessThis:
-    print("Which number is it (hint: between 1-20)")
+while userGuess != guessThis and guessCount < 10:
+    print("Which number is it (hint: between 1-20) You have 10 guesses!")
     guessCount += 1
     userGuess = int(input())
     if userGuess == guessThis:
@@ -28,5 +28,7 @@ while userGuess != guessThis:
     else:
         print("Nope, not quite. How about you try again!")
 
-
-print("Nice job! it only took you " + str(guessCount) + " tries to guess!")
+if guessCount < 10:
+    print("Nice job! it only took you " + str(guessCount) + " tries to guess!")
+else:
+    print("Sorry,  the number I was thinking of was " + str(guessThis))
