@@ -17,8 +17,14 @@
 #       prints in special format for any list
 
 # 11
-def strList(formatMe):
+def strList(printMe):
+    x = len(printMe) - 1
+    printMe.insert(x, 'and')
+    storageSpace = ''
+    for item in printMe:
+        storageSpace = storageSpace + item + ", "
 
+    print(storageSpace)
 
 
 # 1
@@ -48,3 +54,5 @@ print(everydayItems)
 everydayItems.reverse()
 print(everydayItems)
 
+# 11
+strList(everydayItems)
