@@ -20,8 +20,10 @@ def addItem(inventory, item):
 
 
 def deleteItem(inventory, item):
-    if inventory.keys(item) == 0:
+    if inventory[item] != 0:
         inventory[item] = inventory[item] - 1
+    else:
+        print("Item Does Not Exist or Is Not Here")
 
 
 inventoryItems = {'Hand sanitizer': 10, 'Soap': 6, 'Kleenex': 22, 'Lotion': 16, 'Razors': 12}
@@ -30,7 +32,9 @@ printInventory(inventoryItems)
 # test 2
 addItem(inventoryItems, 'Advil')
 addItem(inventoryItems, 'Advil')
-addItem(inventoryItems, 'Advil')
-addItem(inventoryItems, 'Advil')
 printInventory(inventoryItems)
 # test 3
+deleteItem(inventoryItems, 'Advil')
+deleteItem(inventoryItems, 'Advil')
+printInventory(inventoryItems)
+deleteItem(inventoryItems, 'Advil')
