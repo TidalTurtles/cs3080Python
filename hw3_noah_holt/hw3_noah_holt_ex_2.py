@@ -17,8 +17,11 @@ testString = "My name is Noah Holt. I am vegan!"
 # initialize dictionary
 lettersCounted = {}
 
-# found similar in book chapter 5
-# in the setDefault section
+# found in book chapter 5
+# in the setdefault() method section of the chapter
+# I was way over complication things so glad I found this
+# before I did, I had the for loop and a if elif, else thing going on
+# and it was way not working
 for character in testString:
     lettersCounted.setdefault(character, 0)
     lettersCounted[character] = lettersCounted[character] + 1
